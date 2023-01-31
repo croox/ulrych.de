@@ -1,0 +1,21 @@
+/*
+
+Your custom css
+
+*/
+
+#mk-header, #mk-header-1 {
+ display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .from-tablet-landscape {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .until-tablet-landscape {
+    display: none;
+  }
+}
